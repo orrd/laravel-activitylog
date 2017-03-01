@@ -1,10 +1,9 @@
 {
-    "name": "spatie/laravel-activitylog",
+    "name": "orrd/laravel-activitylog",
     "description": "A very simple activity logger to monitor the users of your website or application",
-    "homepage": "https://github.com/spatie/activitylog",
+    "homepage": "https://github.com/orrd/activitylog",
     "keywords":
     [
-        "spatie",
         "log",
         "user",
         "activity",
@@ -39,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Activitylog\\": "src"
+            "Orrd\\Activitylog\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -47,7 +46,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Activitylog\\Test\\": "tests"
+            "Orrd\\Activitylog\\Test\\": "tests"
         }
     },
 
